@@ -21,7 +21,7 @@ namespace Observer
         public override void Actualizar(Personaje p)
         {
             string entrada = p.EstaMuerto()
-                ? $"[{DateTime.Now:HH:mm:ss}] DECESO: {p.Nombre} ({p.GetType().Name}) ha muerto en combate."
+                ? $"[{DateTime.Now:HH:mm:ss}] MUERTE: {p.Nombre} ({p.GetType().Name}) ha muerto en combate."
                 : $"[{DateTime.Now:HH:mm:ss}] EVENTO: {p.Nombre} ({p.GetType().Name}) - HP actual: {p.Vida}/{p.VidaMaxima}.";
 
             Console.WriteLine($"[LOGGER] {entrada}");

@@ -12,8 +12,17 @@ namespace State
 
         private EstadoParalizado() { }
 
-        public void AplicarEfecto(Personaje p) =>
+        public void AplicarEfecto(Personaje p){
+             Random random = new Random();
+            int roll = random.Next(1, 21);
             Console.WriteLine($"  [{p.Nombre}] está Paralizado. Pierde su turno por completo.");
+
+            if (roll > 10)
+            {
+                Console.WriteLine($"  [{p.Nombre}] se ha recuperado de la parálisis.");
+                p.CambiarEstado(EstadoSaludable.Instancia);
+            }
+        }
 
         public void Atacar(Personaje p) =>
             Console.WriteLine($"  [{p.Nombre}] intenta atacar, pero está Paralizado y no puede.");
