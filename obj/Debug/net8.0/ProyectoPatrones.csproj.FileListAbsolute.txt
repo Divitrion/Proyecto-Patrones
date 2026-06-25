@@ -1,0 +1,15 @@
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.GeneratedMSBuildEditorConfig.editorconfig
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.AssemblyInfoInputs.cache
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.AssemblyInfo.cs
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.csproj.CoreCompileInputs.cache
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.sourcelink.json
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\bin\Debug\net8.0\ProyectoPatrones.exe
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\bin\Debug\net8.0\ProyectoPatrones.deps.json
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\bin\Debug\net8.0\ProyectoPatrones.runtimeconfig.json
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\bin\Debug\net8.0\ProyectoPatrones.dll
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\bin\Debug\net8.0\ProyectoPatrones.pdb
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.dll
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\refint\ProyectoPatrones.dll
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.pdb
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ProyectoPatrones.genruntimeconfig.cache
+B:\Cosawas\Facultad\Patrones de diseño\ProyectoPatrones\obj\Debug\net8.0\ref\ProyectoPatrones.dll

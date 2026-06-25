@@ -104,7 +104,7 @@ namespace Factory
         public void AplicarEfectoDeTurno()   => EstadoActual.AplicarEfecto(this);
 
         // Resta vida de forma uniforme; dispara notificación si llega a 0.
-        public void RecibirDano(int daño)
+        public void RecibirDaño(int daño)
         {
             Vida -= daño;
             NotificarObservadores();

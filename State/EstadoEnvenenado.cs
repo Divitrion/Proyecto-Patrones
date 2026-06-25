@@ -16,9 +16,9 @@ namespace State
 
         public void AplicarEfecto(Personaje p)
         {
-            int dano = (int)(p.VidaMaxima * PorcentajeDanoPorTurno);
-            Console.WriteLine($"  [{p.Nombre}] está Envenenado. Pierde {dano} HP antes de actuar.");
-            p.VidaActual -= dano;
+            int daño = (int)(p.VidaMaxima * PorcentajeDanoPorTurno);
+            Console.WriteLine($"  [{p.Nombre}] está Envenenado. Pierde {daño} HP antes de actuar.");
+            p.RecibirDaño(daño);
         }
 
         public void Atacar(Personaje p) =>
