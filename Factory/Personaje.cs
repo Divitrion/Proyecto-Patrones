@@ -42,7 +42,6 @@ namespace Factory
                 if (_vida == 0 && !(EstadoActual is EstadoMuerto))
                 {
                     CambiarEstado(EstadoMuerto.Instancia);
-                    NotificarObservadores();
                 }
             }
         }
