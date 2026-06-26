@@ -75,8 +75,14 @@ namespace Facade
 
         public void AgregarItemAInventario(Personaje p, Inventario item)
         {
-            p.GetInventario().AgregarElemento(item);
+            p.AgregarItemAInventario(item);
             Console.WriteLine($"[SISTEMA] {item.GetNombre()} agregado al inventario de {p.Nombre}.");
+        }
+
+        public void QuitarItemDeInventario(Personaje p, Inventario item)
+        {
+            p.QuitarItemDeInventario(item);
+            Console.WriteLine($"[SISTEMA] {item.GetNombre()} removido del inventario de {p.Nombre}.");
         }
 
         public void MostrarInventario(Personaje p)

@@ -126,6 +126,9 @@ namespace Factory
             if (Vida > 0)
                 NotificarObservadores();
         }
+
+        public void AgregarItemAInventario(Inventario item) => inventario.AgregarElemento(item);
+        public void QuitarItemDeInventario(Inventario item)  => inventario.QuitarElemento(item);
         
         public bool EstaMuerto() => EstadoActual is EstadoMuerto;
 
