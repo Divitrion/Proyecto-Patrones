@@ -106,22 +106,6 @@ namespace Factory
         // Resta vida de forma uniforme; dispara notificación si llega a 0.
         public void RecibirDaño(int daño)
         {
-            Random random = new Random();
-
-            int roll = random.Next(1, 21);
-
-            if (roll <= 15 && roll > 10)
-            {
-                Console.WriteLine($"[{Nombre}] Fue evenenado");
-                CambiarEstado(EstadoEnvenenado.ObtenerInstancia());
-            }
-
-            else if (roll > 15 && roll <= 20)
-            {
-                Console.WriteLine($"[{Nombre}] Fue paralizado");
-                CambiarEstado(EstadoParalizado.ObtenerInstancia());
-            }
-
             Vida -= daño;
             if (Vida > 0)
                 NotificarObservadores();

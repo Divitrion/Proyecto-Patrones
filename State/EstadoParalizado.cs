@@ -12,17 +12,18 @@ namespace State
 
         public static EstadoParalizado ObtenerInstancia() => Instancia;
 
+        private int _turnosRestantes = 1;
+
         private EstadoParalizado() { }
 
         public void AplicarEfecto(Personaje p){
-             Random random = new Random();
-            int roll = random.Next(1, 21);
             Console.WriteLine($"  [{p.Nombre}] está Paralizado. Pierde su turno por completo.");
-
-            if (roll > 10)
+            _turnosRestantes--;
+            if (_turnosRestantes <= 0)
             {
                 Console.WriteLine($"  [{p.Nombre}] se ha recuperado de la parálisis.");
                 p.CambiarEstado(EstadoSaludable.ObtenerInstancia());
+                _turnosRestantes = 1; // Reinicia el contador para la próxima vez que se paralice
             }
         }
 

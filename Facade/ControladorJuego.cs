@@ -121,6 +121,10 @@ namespace Facade
             atacante.Atacar(); // Delega al estado actual (muestra mensaje según Estado)
             Console.WriteLine($"[COMBATE] {atacante.Nombre} inflige {dañoTotal} de daño a {objetivo.Nombre}.");
             objetivo.RecibirDaño(dañoTotal);
+
+            atacante.GetArmaEquipada()?.AplicarEfecto(objetivo);
+
+
             Console.WriteLine($"  → {objetivo}");
         }
 

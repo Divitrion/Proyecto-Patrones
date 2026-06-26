@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Factory;
 
 namespace Decorator
 {
@@ -9,5 +10,7 @@ namespace Decorator
     {
         public abstract int CalcularDaño();
         public abstract string GetDescripcion();
+
+        public virtual void AplicarEfecto(Personaje objetivo) { }
     }
 }
