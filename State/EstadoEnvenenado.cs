@@ -8,7 +8,9 @@ namespace State
         private static readonly Lazy<EstadoEnvenenado> _instancia =
             new(() => new EstadoEnvenenado());
 
-        public static EstadoEnvenenado Instancia => _instancia.Value;
+        private static EstadoEnvenenado Instancia => _instancia.Value;
+
+        public static EstadoEnvenenado ObtenerInstancia() => Instancia;
 
         private const float PorcentajeDanoPorTurno = 0.10f;
 

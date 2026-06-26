@@ -9,7 +9,9 @@ namespace Observer
         private static readonly Lazy<SistemaLogger> _instancia =
             new(() => new SistemaLogger());
 
-        public static SistemaLogger Instancia => _instancia.Value;
+        private static SistemaLogger Instancia => _instancia.Value;
+
+        public static SistemaLogger ObtenerInstancia() => Instancia;
 
         private readonly string rutaArchivo = "log_partida.txt";
 

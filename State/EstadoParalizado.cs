@@ -8,7 +8,9 @@ namespace State
         private static readonly Lazy<EstadoParalizado> _instancia =
             new(() => new EstadoParalizado());
 
-        public static EstadoParalizado Instancia => _instancia.Value;
+        private static EstadoParalizado Instancia => _instancia.Value;
+
+        public static EstadoParalizado ObtenerInstancia() => Instancia;
 
         private EstadoParalizado() { }
 
@@ -20,7 +22,7 @@ namespace State
             if (roll > 10)
             {
                 Console.WriteLine($"  [{p.Nombre}] se ha recuperado de la parálisis.");
-                p.CambiarEstado(EstadoSaludable.Instancia);
+                p.CambiarEstado(EstadoSaludable.ObtenerInstancia());
             }
         }
 

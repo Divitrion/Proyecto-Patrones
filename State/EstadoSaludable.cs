@@ -8,7 +8,9 @@ namespace State
         private static readonly Lazy<EstadoSaludable> _instancia =
             new(() => new EstadoSaludable());
 
-        public static EstadoSaludable Instancia => _instancia.Value;
+        private static EstadoSaludable Instancia => _instancia.Value;
+
+        public static EstadoSaludable ObtenerInstancia() => Instancia;
 
         private EstadoSaludable() { }
 

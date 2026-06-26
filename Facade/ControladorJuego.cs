@@ -53,8 +53,8 @@ namespace Facade
             Personaje p = fabricas[tipo].CrearPersonaje(nombre);
 
             // Suscripción automática a los sistemas observadores (Singleton + Observer)
-            p.AgregarObservador(SistemaLogros.Instancia);
-            p.AgregarObservador(SistemaLogger.Instancia);
+            p.AgregarObservador(SistemaLogros.ObtenerInstancia());
+            p.AgregarObservador(SistemaLogger.ObtenerInstancia());
 
             if (esParty) party.Add(p);
             else         enemigos.Add(p);

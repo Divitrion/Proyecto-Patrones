@@ -41,7 +41,7 @@ namespace Factory
                 _vida = Math.Max(0, value);
                 if (_vida == 0 && !(EstadoActual is EstadoMuerto))
                 {
-                    CambiarEstado(EstadoMuerto.Instancia);
+                    CambiarEstado(EstadoMuerto.ObtenerInstancia());
                     NotificarObservadores();
                 }
             }
@@ -91,7 +91,7 @@ namespace Factory
             VidaMaxima    = vidaMaxima;
 
             _vida = vidaMaxima;
-            EstadoActual  = EstadoSaludable.Instancia;
+            EstadoActual  = EstadoSaludable.ObtenerInstancia();
             observadores  = new List<Observador>();
             inventario    = new Contenedor(nombre + " - Inventario");
             armaEquipada  = null;
@@ -113,13 +113,13 @@ namespace Factory
             if (roll <= 15 && roll > 10)
             {
                 Console.WriteLine($"[{Nombre}] Fue evenenado");
-                CambiarEstado(EstadoEnvenenado.Instancia);
+                CambiarEstado(EstadoEnvenenado.ObtenerInstancia());
             }
 
             else if (roll > 15 && roll <= 20)
             {
                 Console.WriteLine($"[{Nombre}] Fue paralizado");
-                CambiarEstado(EstadoParalizado.Instancia);
+                CambiarEstado(EstadoParalizado.ObtenerInstancia());
             }
 
             Vida -= daño;

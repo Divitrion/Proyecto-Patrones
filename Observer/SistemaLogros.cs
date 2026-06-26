@@ -8,7 +8,9 @@ namespace Observer
         private static readonly Lazy<SistemaLogros> _instancia =
             new(() => new SistemaLogros());
 
-        public static SistemaLogros Instancia => _instancia.Value;
+        private static SistemaLogros Instancia => _instancia.Value;
+
+        public static SistemaLogros ObtenerInstancia() => Instancia;
 
         private SistemaLogros() { }
 

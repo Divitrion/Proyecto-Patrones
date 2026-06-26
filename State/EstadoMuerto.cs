@@ -8,7 +8,9 @@ namespace State
         private static readonly Lazy<EstadoMuerto> _instancia =
             new(() => new EstadoMuerto());
 
-        public static EstadoMuerto Instancia => _instancia.Value;
+        private static EstadoMuerto Instancia => _instancia.Value;
+
+        public static EstadoMuerto ObtenerInstancia() => Instancia;
 
         private EstadoMuerto() { }
 

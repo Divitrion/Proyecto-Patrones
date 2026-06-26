@@ -45,10 +45,10 @@ class Program
         // ── Módulo B: State (transición de estados) ──────────────────────
         Console.WriteLine("\n=== STATE ===");
         Console.WriteLine($"  Estado inicial: {guerrero.EstadoActual.GetType().Name}");
-        guerrero.CambiarEstado(EstadoEnvenenado.Instancia);
+        guerrero.CambiarEstado(EstadoEnvenenado.ObtenerInstancia());
         Console.WriteLine($"  Tras envenenar: {guerrero.EstadoActual.GetType().Name}");
         guerrero.AplicarEfectoDeTurno(); // pierde vida por veneno
-        guerrero.CambiarEstado(EstadoSaludable.Instancia);
+        guerrero.CambiarEstado(EstadoSaludable.ObtenerInstancia());
         Console.WriteLine($"  Curado: {guerrero.EstadoActual.GetType().Name}");
 
         // ── Módulo E: Observer (automático al morir) ─────────────────────
