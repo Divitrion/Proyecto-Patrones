@@ -16,5 +16,8 @@ namespace Decorator
         {
             this.armaInterna = armaInterna;
         }
+
+        public override void AplicarEfecto(Personaje objetivo) =>
+            armaInterna.AplicarEfecto(objetivo); // Por defecto, los decoradores delegan la aplicación del efecto al arma interna
     }
 }

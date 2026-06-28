@@ -122,8 +122,7 @@ namespace Facade
             Console.WriteLine($"[COMBATE] {atacante.Nombre} inflige {dañoTotal} de daño a {objetivo.Nombre}.");
             objetivo.RecibirDaño(dañoTotal);
 
-            atacante.GetArmaEquipada()?.AplicarEfecto(objetivo);
-
+            atacante.GetArmaEquipada().AplicarEfecto(objetivo);
 
             Console.WriteLine($"  → {objetivo}");
         }
