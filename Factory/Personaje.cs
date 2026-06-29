@@ -19,14 +19,14 @@ namespace Factory
     public abstract class Personaje
     {
         public string Nombre        { get; private set; }
-        public int    Fuerza        { get; }
-        public int    Percepcion    { get; }
-        public int    Resistencia   { get; }
-        public int    Carisma       { get; }
-        public int    Inteligencia  { get; }
-        public int    Agilidad      { get; }
-        public int    Suerte        { get; }
-        public int    VidaMaxima    { get; }
+        public int    Fuerza        { get; private set; }
+        public int    Percepcion    { get; private set; }
+        public int    Resistencia   { get; private set; }
+        public int    Carisma       { get; private set; }
+        public int    Inteligencia  { get; private set; }
+        public int    Agilidad      { get; private set; }
+        public int    Suerte        { get; private set; }
+        public int    VidaMaxima    { get; private set; }
 
         private int _vida;
         public int Vida
