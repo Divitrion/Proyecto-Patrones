@@ -14,8 +14,6 @@ namespace State
 
         private const float PorcentajeDanoPorTurno = 0.10f;
 
-        private int _turnosRestantes = 3;
-
         private EstadoEnvenenado() { }
 
         public void AplicarEfecto(Personaje p)
@@ -23,12 +21,12 @@ namespace State
             int daño = (int)(p.VidaMaxima * PorcentajeDanoPorTurno);
             Console.WriteLine($"  [{p.Nombre}] está Envenenado. Pierde {daño} HP antes de actuar.");
             p.RecibirDaño(daño);
-            _turnosRestantes--;
-            if (_turnosRestantes <= 0)
+            p.DecrementarContadorVeneno();
+            if (p.GetContadorVeneno() <= 0)
             {
                 Console.WriteLine($"  [{p.Nombre}] se ha recuperado del veneno.");
                 p.CambiarEstado(EstadoSaludable.ObtenerInstancia());
-                _turnosRestantes = 3; // Reinicia el contador para la próxima vez que se envenene
+                p.ResetearContadorVeneno();
             }
         }
 

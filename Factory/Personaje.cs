@@ -28,6 +28,16 @@ namespace Factory
         public int    Suerte        { get; private set; }
         public int    VidaMaxima    { get; private set; }
 
+        private int contadorVeneno = 3;
+        public int GetContadorVeneno() => contadorVeneno;
+        public void DecrementarContadorVeneno() => contadorVeneno--;
+        public void ResetearContadorVeneno() => contadorVeneno = 3;
+        private int contadorParalisis = 1;
+        public int GetContadorParalisis() => contadorParalisis;
+        public void DecrementarContadorParalisis() => contadorParalisis--;
+        public void ResetearContadorParalisis() => contadorParalisis = 1;
+
+
         private int _vida;
         public int Vida
         {
