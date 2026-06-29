@@ -17,12 +17,12 @@ namespace Observer
 
         private SistemaLogger()
         {
-            File.AppendAllText(rutaArchivo, $"=== Log de partida iniciado: {DateTime.Now} ==={Environment.NewLine}");
+            File.AppendAllText(rutaArchivo, $"=== Log de partida iniciado: {DateTime.Now:yyyy-MM-dd HH:mm:ss} ==={Environment.NewLine}");
         }
 
         public override void Actualizar(string evento)
         {
-            string entrada = $"[{DateTime.Now:HH:mm:ss}] {evento}";
+            string entrada = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {evento}";
 
             Console.WriteLine($"[LOGGER] {entrada}");
             File.AppendAllText(rutaArchivo, entrada + Environment.NewLine);
