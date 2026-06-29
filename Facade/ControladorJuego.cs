@@ -115,7 +115,7 @@ namespace Facade
                 return;
             }
 
-            int dañoArma = atacante.GetArmaEquipada()?.CalcularDaño() ?? 0;
+            int dañoArma = atacante.GetArmaEquipada()?.CalcularDano() ?? 0;
             int dañoTotal = atacante.Fuerza + dañoArma;
 
             atacante.Atacar(); // Delega al estado actual (muestra mensaje según Estado)

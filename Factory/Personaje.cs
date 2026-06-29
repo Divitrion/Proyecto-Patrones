@@ -18,7 +18,7 @@ namespace Factory
     
     public abstract class Personaje
     {
-        public string Nombre        { get; }
+        public string Nombre        { get; private set; }
         public int    Fuerza        { get; }
         public int    Percepcion    { get; }
         public int    Resistencia   { get; }
