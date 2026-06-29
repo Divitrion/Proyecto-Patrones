@@ -8,7 +8,7 @@ namespace Decorator
 {
     public abstract class Arma
     {
-        public abstract int CalcularDaño();
+        public abstract int CalcularDano();
         public abstract string GetDescripcion();
 
         public virtual void AplicarEfecto(Personaje objetivo)

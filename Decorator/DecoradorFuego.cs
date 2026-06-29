@@ -7,17 +7,17 @@ namespace Decorator
 {
     public class DecoradorFuego : ModificadorBase
     {
-        private int bonusDano;
+        private int bonusFuego;
 
         public DecoradorFuego(Arma armaInterna) : base(armaInterna)
         {
             Random random = new Random();
-            this.bonusDano = random.Next(5, 30); // Genera un bonus de daño aleatorio entre 5 y 30
+            this.bonusFuego = random.Next(5, 30); // Genera un bonus de daño aleatorio entre 5 y 30
         }
 
-        public override int CalcularDaño() => armaInterna.CalcularDaño() + bonusDano;
+        public override int CalcularDano() => armaInterna.CalcularDano() + bonusFuego;
 
         public override string GetDescripcion() =>
-            $"{armaInterna.GetDescripcion()} + Fuego (+{bonusDano}) = {CalcularDaño()}";
+            $"{armaInterna.GetDescripcion()} + Fuego (+{bonusFuego}) = {CalcularDano()}";
     }
 }

@@ -9,20 +9,20 @@ namespace Decorator
 {
     public class DecoradorVeneno : ModificadorBase
     {
-        private int BonusVeneno;
+        private int bonusVeneno;
 
         private static readonly Random rng = new();
 
         public DecoradorVeneno(Arma armaInterna) : base(armaInterna)
         {
             Random random = new Random();
-            this.BonusVeneno = random.Next(2, 10); // Genera un bonus de daño aleatorio entre 2 y 10
+            this.bonusVeneno = random.Next(2, 10); // Genera un bonus de daño aleatorio entre 2 y 10
         }
 
-        public override int CalcularDaño() => armaInterna.CalcularDaño() + BonusVeneno;
+        public override int CalcularDano() => armaInterna.CalcularDano() + bonusVeneno;
 
         public override string GetDescripcion() =>
-            $"{armaInterna.GetDescripcion()} + Veneno (+{BonusVeneno}) = {CalcularDaño()}";
+            $"{armaInterna.GetDescripcion()} + Veneno (+{bonusVeneno}) = {CalcularDano()}";
         
         public override void AplicarEfecto(Personaje objetivo)
         {
