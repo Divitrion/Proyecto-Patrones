@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
 namespace Composite
@@ -41,6 +42,15 @@ namespace Composite
             return nombre;
         }
 
-        public IReadOnlyList<Inventario> GetElementos() => elementos;
+        public void MostrarContenido()
+        {
+            Console.WriteLine($"Contenedor: {nombre}, (Peso total: {GetPeso()}, Valor total: {GetValor()})");
+            foreach (var elemento in elementos)
+            {
+                elemento.MostrarContenido();
+            }
+        }
+
+        public List<Inventario> GetElementos() => elementos;
     }
 }

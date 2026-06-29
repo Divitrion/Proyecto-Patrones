@@ -22,5 +22,9 @@ namespace Composite
         public int GetPeso()  => peso;
         public int GetValor() => valor;
         public string GetNombre() => nombre;
+        public void MostrarContenido()
+        {
+            Console.WriteLine($"Item: {nombre} (Peso: {peso}, Valor: {valor})");
+        }
     }
 }

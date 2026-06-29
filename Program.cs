@@ -23,11 +23,18 @@ class Program
         Console.WriteLine("\n=== DECORATOR ===");
         Arma espadaFuego = new DecoradorFuego(new DecoradorFilo(new ArmaBase(20, "Espada Corta")));
         Arma arcoVeneno  = new DecoradorVeneno(new ArmaBase(18, "Arco Largo"));
+        Arma armaCombinada = new DecoradorVeneno(new DecoradorFuego(new ArmaBase(25, "Espada Larga")));
+        Arma cetroMagico = new DecoradorVeneno(new DecoradorFilo(new ArmaBase(15, "Cetro Mágico")));
 
         juego.EquiparArma(guerrero, espadaFuego);
         juego.EquiparArma(arquera,  arcoVeneno);
+        juego.EquiparArma(enemigo1, armaCombinada);
+        juego.EquiparArma(enemigo2, cetroMagico);
+        
         Console.WriteLine($"  Espada de Aldric: {espadaFuego.GetDescripcion()}");
         Console.WriteLine($"  Arco de Lyra:     {arcoVeneno.GetDescripcion()}");
+        Console.WriteLine($"  Arma combinada:   {armaCombinada.GetDescripcion()}");
+        Console.WriteLine($"  Cetro mágico:     {cetroMagico.GetDescripcion()}");
 
         // ── Módulo C: Composite (inventario jerárquico) ──────────────────
         Console.WriteLine("\n=== COMPOSITE ===");

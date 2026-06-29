@@ -39,11 +39,10 @@ namespace Facade
 
         // ── Creación de personajes ───────────────────────────────────────────
 
-        /// <summary>
         /// Crea un personaje usando la fábrica correspondiente al tipo,
         /// suscribe automáticamente los observadores globales y lo agrega
         /// a la Party o a los Enemigos según corresponda.
-        /// </summary>
+
         public Personaje CrearPersonaje(string tipo, string nombre, bool esParty)
         {
             if (!fabricas.ContainsKey(tipo))
@@ -53,7 +52,6 @@ namespace Facade
             Personaje p = fabricas[tipo].CrearPersonaje(nombre);
 
             // Suscripción automática a los sistemas observadores (Singleton + Observer)
-            p.AgregarObservador(SistemaLogros.ObtenerInstancia());
             p.AgregarObservador(SistemaLogger.ObtenerInstancia());
 
             if (esParty) party.Add(p);
@@ -95,12 +93,10 @@ namespace Facade
 
         // ── Combate ──────────────────────────────────────────────────────────
 
-        /// <summary>
         /// Calcula y aplica el daño de atacante a objetivo. El daño se
         /// compone de la Fuerza del atacante más el daño del arma equipada
         /// (0 si no tiene arma). Valida que ni el atacante ni el objetivo
         /// estén muertos antes de proceder.
-        /// </summary>
         public void EjecutarAtaque(Personaje atacante, Personaje objetivo)
         {
             if (atacante.EstaMuerto())
@@ -127,14 +123,12 @@ namespace Facade
             Console.WriteLine($"  → {objetivo}");
         }
 
-        /// <summary>
         /// Bucle de combate completo. Ordena a todos los combatientes por
         /// Agilidad (mayor a menor) y ejecuta rondas hasta que la Party o
         /// los Enemigos queden eliminados. Los personajes Muertos se saltean;
         /// los Paralizados pierden su turno. Los de la Party piden acción
         /// al jugador por consola (1/2/3); los Enemigos atacan al primer
         /// vivo de la Party.
-        /// </summary>
         public void IniciarCombate()
         {
             if (party.Count == 0 || enemigos.Count == 0)

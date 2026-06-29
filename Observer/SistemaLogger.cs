@@ -20,11 +20,9 @@ namespace Observer
             File.AppendAllText(rutaArchivo, $"=== Log de partida iniciado: {DateTime.Now} ==={Environment.NewLine}");
         }
 
-        public override void Actualizar(Personaje p)
+        public override void Actualizar(string evento)
         {
-            string entrada = p.EstaMuerto()
-                ? $"[{DateTime.Now:HH:mm:ss}] MUERTE: {p.Nombre} ({p.GetType().Name}) ha muerto en combate."
-                : $"[{DateTime.Now:HH:mm:ss}] EVENTO: {p.Nombre} ({p.GetType().Name}) - HP actual: {p.Vida}/{p.VidaMaxima}.";
+            string entrada = $"[{DateTime.Now:HH:mm:ss}] {evento}";
 
             Console.WriteLine($"[LOGGER] {entrada}");
             File.AppendAllText(rutaArchivo, entrada + Environment.NewLine);

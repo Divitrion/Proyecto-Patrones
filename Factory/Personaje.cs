@@ -44,6 +44,7 @@ namespace Factory
             get => _vida;
             private set
             {
+                string texto_muerte = $"[{DateTime.Now:HH:mm:ss}] MUERTE: {Nombre} ({GetType().Name}) ha muerto en combate.";
                 // Un personaje muerto bloquea cualquier intento de modificar
                 // sus estadísticas vitales (informe, Módulo B).
                 if (EstadoActual is EstadoMuerto) return;
@@ -52,7 +53,7 @@ namespace Factory
                 if (_vida == 0 && !(EstadoActual is EstadoMuerto))
                 {
                     CambiarEstado(EstadoMuerto.ObtenerInstancia());
-                    NotificarObservadores();
+                    NotificarObservadores(texto_muerte);
                 }
             }
         }
@@ -67,10 +68,10 @@ namespace Factory
 
         public void AgregarObservador(Observador observador)    => observadores.Add(observador);
         public void EliminarObservador(Observador observador)   => observadores.Remove(observador);
-        public void NotificarObservadores()
+        public void NotificarObservadores(string evento)
         {
             foreach (var obs in observadores)
-                obs.Actualizar(this);
+                obs.Actualizar(evento);
         }
 
         // Patrón Composite (inventario) y Decorator (arma)
@@ -83,7 +84,8 @@ namespace Factory
         public void EquiparArma(Arma arma)
         {
             armaEquipada = arma;
-            NotificarObservadores();
+            string evento = $"[{DateTime.Now:HH:mm:ss}] ARMA: {Nombre} ({GetType().Name}) - Arma equipada: {arma.GetDescripcion()}.";
+            NotificarObservadores(evento);
         }
 
         // Constructor (llamado por las subclases concretas)
@@ -117,8 +119,9 @@ namespace Factory
         public void RecibirDaño(int daño)
         {
             Vida -= daño;
+            string evento = $"[{DateTime.Now:HH:mm:ss}] DAÑO: {Nombre} ({GetType().Name}) - HP actual: {Vida}/{VidaMaxima}.";
             if (Vida > 0)
-                NotificarObservadores();
+                NotificarObservadores(evento);
         }
 
         public void AgregarItemAInventario(Inventario item) => inventario.AgregarElemento(item);

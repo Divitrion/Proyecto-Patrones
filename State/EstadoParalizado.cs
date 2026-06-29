@@ -20,6 +20,8 @@ namespace State
             if (p.GetContadorParalisis() <= 0)
             {
                 Console.WriteLine($"  [{p.Nombre}] se ha recuperado de la parálisis.");
+                string evento = $"[{DateTime.Now:HH:mm:ss}] EVENTO: {p.Nombre} ({p.GetType().Name}) - Se ha recuperado de la parálisis.";
+                p.NotificarObservadores(evento);
                 p.CambiarEstado(EstadoSaludable.ObtenerInstancia());
                 p.ResetearContadorParalisis();
             }

@@ -10,5 +10,6 @@ namespace Composite
         int    GetPeso();
         int    GetValor();
         string GetNombre();
+        void MostrarContenido();
     }
 }

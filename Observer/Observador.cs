@@ -8,6 +8,6 @@ namespace Observer
 {
     public class Observador
     {
-        public virtual void Actualizar(Personaje p) { }
+        public virtual void Actualizar(string evento) { }
     }
 }

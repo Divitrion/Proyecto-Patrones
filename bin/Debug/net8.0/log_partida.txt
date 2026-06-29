@@ -1,0 +1,17 @@
+=== Log de partida iniciado: 29/6/2026 15:02:21 ===
+[15:02:21] [15:02:21] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+29%) = 25 + Fuego (+20) = 45.
+[15:02:21] [15:02:21] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+4) = 22.
+[15:02:21] [15:02:21] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[15:02:21] [15:02:21] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+[15:03:36] [15:03:36] DAÑO: Gruk (Barbaro) - HP actual: 116/150.
+[15:03:36] [15:03:36] EFECTO: Gruk (Barbaro) - Ha sido envenenado.
+[15:03:49] [15:03:49] DAÑO: Gruk (Barbaro) - HP actual: 55/150.
+[15:03:58] [15:03:58] DAÑO: Aldric (Luchador) - HP actual: 103/120.
+=== Log de partida iniciado: 29/6/2026 15:08:25 ===
+[15:08:25] [15:08:25] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+45%) = 29 + Fuego (+8) = 37.
+[15:08:25] [15:08:25] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+9) = 27.
+[15:08:25] [15:08:25] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[15:08:25] [15:08:25] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+[15:08:48] [15:08:48] DAÑO: Gruk (Barbaro) - HP actual: 113/150.
+[15:08:48] [15:08:48] EFECTO: Gruk (Barbaro) - Ha sido envenenado.
+[15:08:48] [15:08:48] DAÑO: Gruk (Barbaro) - HP actual: 98/150.

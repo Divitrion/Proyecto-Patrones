@@ -25,6 +25,8 @@ namespace State
             if (p.GetContadorVeneno() <= 0)
             {
                 Console.WriteLine($"  [{p.Nombre}] se ha recuperado del veneno.");
+                string evento = $"[{DateTime.Now:HH:mm:ss}] EVENTO: {p.Nombre} ({p.GetType().Name}) - Se ha recuperado del veneno.";
+                p.NotificarObservadores(evento);
                 p.CambiarEstado(EstadoSaludable.ObtenerInstancia());
                 p.ResetearContadorVeneno();
             }
