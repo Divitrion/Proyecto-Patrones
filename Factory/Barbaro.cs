@@ -15,7 +15,7 @@ namespace Factory
             inteligencia: rng.Next(1, 8),
             agilidad:     rng.Next(5, 12),
             suerte:       rng.Next(7, 14),
-            vidaMaxima:   150)
+            vidaMaxima:   300)
         { }
     }
 }

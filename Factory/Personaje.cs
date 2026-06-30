@@ -28,10 +28,10 @@ namespace Factory
         public int    Suerte        { get; private set; }
         public int    VidaMaxima    { get; private set; }
 
-        private int contadorVeneno = 3;
+        private int contadorVeneno = 2;
         public int GetContadorVeneno() => contadorVeneno;
         public void DecrementarContadorVeneno() => contadorVeneno--;
-        public void ResetearContadorVeneno() => contadorVeneno = 3;
+        public void ResetearContadorVeneno() => contadorVeneno = 2;
         private int contadorParalisis = 1;
         public int GetContadorParalisis() => contadorParalisis;
         public void DecrementarContadorParalisis() => contadorParalisis--;
@@ -44,7 +44,7 @@ namespace Factory
             get => _vida;
             private set
             {
-                string texto_muerte = $"[{DateTime.Now:HH:mm:ss}] MUERTE: {Nombre} ({GetType().Name}) ha muerto en combate.";
+                string texto_muerte = $"MUERTE: {Nombre} ({GetType().Name}) ha muerto en combate.";
                 // Un personaje muerto bloquea cualquier intento de modificar
                 // sus estadísticas vitales (informe, Módulo B).
                 if (EstadoActual is EstadoMuerto) return;

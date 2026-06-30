@@ -12,13 +12,13 @@ namespace State
 
         public static EstadoEnvenenado ObtenerInstancia() => Instancia;
 
-        private const float PorcentajeDanoPorTurno = 0.10f;
+        private const float PorcentajeDanoPorTurno = 0.05f;
 
         private EstadoEnvenenado() { }
 
         public void AplicarEfecto(Personaje p)
         {
-            int daño = (int)(p.VidaMaxima * PorcentajeDanoPorTurno);
+            int daño = (int)(p.Vida * PorcentajeDanoPorTurno);
             Console.WriteLine($"  [{p.Nombre}] está Envenenado. Pierde {daño} HP antes de actuar.");
             p.RecibirDaño(daño);
             p.DecrementarContadorVeneno();

@@ -1,105 +1,46 @@
-=== Log de partida iniciado: 29/6/2026 14:46:07 ===
-[14:46:07] [14:46:07] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+43%) = 28 + Fuego (+7) = 35.
-[14:46:07] [14:46:07] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+7) = 25.
-[14:46:07] [14:46:07] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[14:46:07] [14:46:07] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[14:48:00] [14:48:00] DAÑO: Gruk (Barbaro) - HP actual: 114/150.
-[14:48:00] [14:48:00] DAÑO: Aldric (Luchador) - HP actual: 83/120.
-=== Log de partida iniciado: 29/6/2026 14:48:25 ===
-[14:48:25] [14:48:25] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+11%) = 22 + Fuego (+9) = 31.
-[14:48:25] [14:48:25] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+8) = 26.
-[14:48:25] [14:48:25] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[14:48:25] [14:48:25] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[14:48:27] [14:48:27] DAÑO: Gruk (Barbaro) - HP actual: 111/150.
-[14:48:28] [14:48:28] DAÑO: Gruk (Barbaro) - HP actual: 62/150.
-[14:48:28] [14:48:28] DAÑO: Aldric (Luchador) - HP actual: 88/120.
-=== Log de partida iniciado: 29/6/2026 14:53:19 ===
-[14:53:19] [14:53:19] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+20%) = 24 + Fuego (+9) = 33.
-[14:53:19] [14:53:19] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+3) = 21.
-[14:53:19] [14:53:19] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[14:53:19] [14:53:19] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[14:59:53] [14:59:53] DAÑO: Gruk (Barbaro) - HP actual: 115/150.
-[14:59:53] [14:59:53] EFECTO: Gruk (Barbaro) - Ha sido paralizado.
-[14:59:55] [14:59:55] DAÑO: Gruk (Barbaro) - HP actual: 62/150.
-[14:59:55] [14:59:55] DAÑO: Aldric (Luchador) - HP actual: 101/120.
-=== Log de partida iniciado: 29/6/2026 15:12:13 ===
-[15:12:13] [15:12:13] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+20%) = 24 + Fuego (+13) = 37.
-[15:12:13] [15:12:13] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+7) = 25.
-[15:12:13] [15:12:13] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+24) = 49 + Veneno (+3) = 52.
-[15:12:13] [15:12:13] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+2%) = 15 + Veneno (+6) = 21.
-[15:12:13] [15:12:13] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[15:12:13] [15:12:13] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[15:12:16] [15:12:16] DAÑO: Gruk (Barbaro) - HP actual: 112/150.
-[15:12:16] [15:12:16] EFECTO: Gruk (Barbaro) - Ha sido envenenado.
-[15:12:17] [15:12:17] DAÑO: Gruk (Barbaro) - HP actual: 55/150.
-[15:12:17] [15:12:17] DAÑO: Gruk (Barbaro) - HP actual: 40/150.
-[15:12:17] [15:12:17] DAÑO: Aldric (Luchador) - HP actual: 37/120.
-[15:12:17] [15:12:17] EFECTO: Aldric (Luchador) - Ha sido envenenado.
-[15:12:17] [15:12:17] DAÑO: Aldric (Luchador) - HP actual: 10/120.
-[15:12:18] [15:12:18] DAÑO: Gruk (Barbaro) - HP actual: 2/150.
-[15:12:18] [15:12:18] MUERTE: Aldric (Luchador) ha muerto en combate.
-[15:12:18] [15:12:18] MUERTE: Gruk (Barbaro) ha muerto en combate.
-[15:12:18] [15:12:18] DAÑO: Lyra (Arquero) - HP actual: 63/90.
-[15:12:18] [15:12:18] EFECTO: Lyra (Arquero) - Ha sido envenenado.
-[15:12:18] [15:12:18] DAÑO: Lyra (Arquero) - HP actual: 54/90.
-[15:12:19] [15:12:19] DAÑO: Malakar (Hechicero) - HP actual: 32/70.
-[15:12:19] [15:12:19] EFECTO: Malakar (Hechicero) - Ha sido envenenado.
-[15:12:19] [15:12:19] DAÑO: Malakar (Hechicero) - HP actual: 25/70.
-[15:12:19] [15:12:19] DAÑO: Lyra (Arquero) - HP actual: 27/90.
-[15:12:19] [15:12:19] DAÑO: Lyra (Arquero) - HP actual: 18/90.
-[15:12:19] [15:12:19] MUERTE: Malakar (Hechicero) ha muerto en combate.
-=== Log de partida iniciado: 29/6/2026 15:13:39 ===
-[15:13:39] [15:13:39] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+11%) = 22 + Fuego (+15) = 37.
-[15:13:39] [15:13:39] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+2) = 20.
-[15:13:39] [15:13:39] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+10) = 35 + Veneno (+9) = 44.
-[15:13:39] [15:13:39] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+12%) = 16 + Veneno (+3) = 19.
-[15:13:39] [15:13:39] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[15:13:39] [15:13:39] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[15:13:41] [15:13:41] DAÑO: Aldric (Luchador) - HP actual: 85/120.
-[15:13:41] [15:13:41] EFECTO: Aldric (Luchador) - Ha sido envenenado.
-[15:13:41] [15:13:41] DAÑO: Aldric (Luchador) - HP actual: 73/120.
-[15:13:45] [15:13:45] DAÑO: Gruk (Barbaro) - HP actual: 93/150.
-[15:13:45] [15:13:45] DAÑO: Aldric (Luchador) - HP actual: 10/120.
-[15:13:46] [15:13:46] MUERTE: Aldric (Luchador) ha muerto en combate.
-[15:13:46] [15:13:46] DAÑO: Lyra (Arquero) - HP actual: 27/90.
-[15:13:48] [15:13:48] DAÑO: Lyra (Arquero) - HP actual: 4/90.
-[15:13:48] [15:13:48] EFECTO: Lyra (Arquero) - Ha sido paralizado.
-[15:13:48] [15:13:48] MUERTE: Lyra (Arquero) ha muerto en combate.
-=== Log de partida iniciado: 30/6/2026 13:32:37 ===
-[13:32:37] [13:32:37] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+14%) = 22 + Fuego (+6) = 28.
-[13:32:37] [13:32:37] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+2) = 20.
-[13:32:37] [13:32:37] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+10) = 35 + Veneno (+9) = 44.
-[13:32:37] [13:32:37] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+12%) = 16 + Veneno (+7) = 23.
-[13:32:37] [13:32:37] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[13:32:37] [13:32:37] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-=== Log de partida iniciado: 30/6/2026 13:34:24 ===
-[13:34:24] [13:34:24] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+20%) = 24 + Fuego (+9) = 33.
-[13:34:24] [13:34:24] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+7) = 25.
-[13:34:24] [13:34:24] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+27) = 52 + Veneno (+6) = 58.
-[13:34:24] [13:34:24] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+8%) = 16 + Veneno (+9) = 25.
-[13:34:24] [13:34:24] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[13:34:24] [13:34:24] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-=== Log de partida iniciado: 30/6/2026 13:35:19 ===
-[13:35:19] [13:35:19] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+39%) = 27 + Fuego (+27) = 54.
-[13:35:19] [13:35:19] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+9) = 27.
-[13:35:19] [13:35:19] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+24) = 49 + Veneno (+3) = 52.
-[13:35:19] [13:35:19] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+48%) = 22 + Veneno (+9) = 31.
-[13:35:19] [13:35:19] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[13:35:19] [13:35:19] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-=== Log de partida iniciado: 30/6/2026 14:01:23 ===
-[14:01:23] [14:01:23] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+32%) = 26 + Fuego (+13) = 39.
-[14:01:23] [14:01:23] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+4) = 22.
-[14:01:23] [14:01:23] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+18) = 43 + Veneno (+6) = 49.
-[14:01:23] [14:01:23] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+43%) = 21 + Veneno (+8) = 29.
-[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[14:01:23] [14:01:23] MUERTE: DummyMago (Hechicero) ha muerto en combate.
-[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 73/120.
-[14:01:23] [14:01:23] EFECTO: Aldric (Luchador) - Ha sido envenenado.
-[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 61/120.
-=== Log de partida iniciado: 30/6/2026 14:04:37 ===
-[14:04:37] [14:04:37] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+24%) = 24 + Fuego (+16) = 40.
-[14:04:37] [14:04:37] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+5) = 23.
-[14:04:37] [14:04:37] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+14) = 39 + Veneno (+9) = 48.
-[14:04:37] [14:04:37] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+8%) = 16 + Veneno (+2) = 18.
-[14:04:37] [14:04:37] DAÑO: Aldric (Luchador) - HP actual: 108/120.
-[14:04:37] [14:04:37] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+=== Log de partida iniciado: 2026-06-30 14:10:26 ===
+[2026-06-30 14:10:26] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+1%) = 20 + Fuego (+6) = 26.
+[2026-06-30 14:10:26] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+9) = 27.
+[2026-06-30 14:10:26] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+11) = 36 + Veneno (+2) = 38.
+[2026-06-30 14:10:26] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+18%) = 17 + Veneno (+3) = 20.
+[2026-06-30 14:10:26] DAÑO: Aldric (Luchador) - HP actual: 225/250.
+[2026-06-30 14:10:26] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+[2026-06-30 14:10:42] DAÑO: Gruk (Barbaro) - HP actual: 262/300.
+[2026-06-30 14:10:48] DAÑO: Gruk (Barbaro) - HP actual: 216/300.
+[2026-06-30 14:10:48] DAÑO: Aldric (Luchador) - HP actual: 164/250.
+[2026-06-30 14:10:48] EFECTO: Aldric (Luchador) - Ha sido paralizado.
+[2026-06-30 14:10:48] DAÑO: Aldric (Luchador) - HP actual: 136/250.
+[2026-06-30 14:10:59] DAÑO: Gruk (Barbaro) - HP actual: 178/300.
+[2026-06-30 14:10:59] EVENTO: Aldric (Luchador) - Se ha recuperado de la parálisis.
+[2026-06-30 14:11:05] DAÑO: Gruk (Barbaro) - HP actual: 132/300.
+[2026-06-30 14:11:05] DAÑO: Aldric (Luchador) - HP actual: 75/250.
+[2026-06-30 14:11:05] EFECTO: Aldric (Luchador) - Ha sido envenenado.
+[2026-06-30 14:11:05] DAÑO: Aldric (Luchador) - HP actual: 47/250.
+[2026-06-30 14:11:06] DAÑO: Gruk (Barbaro) - HP actual: 94/300.
+[2026-06-30 14:11:06] EFECTO: Gruk (Barbaro) - Ha sido envenenado.
+[2026-06-30 14:11:06] DAÑO: Aldric (Luchador) - HP actual: 22/250.
+[2026-06-30 14:11:07] DAÑO: Gruk (Barbaro) - HP actual: 48/300.
+[2026-06-30 14:11:07] DAÑO: Gruk (Barbaro) - HP actual: 18/300.
+[2026-06-30 14:11:07] MUERTE: Aldric (Luchador) ha muerto en combate.
+[2026-06-30 14:11:07] DAÑO: Lyra (Arquero) - HP actual: 162/190.
+[2026-06-30 14:11:07] EFECTO: Lyra (Arquero) - Ha sido paralizado.
+[2026-06-30 14:11:07] EVENTO: Lyra (Arquero) - Se ha recuperado de la parálisis.
+[2026-06-30 14:11:08] MUERTE: Gruk (Barbaro) ha muerto en combate.
+[2026-06-30 14:11:08] DAÑO: Lyra (Arquero) - HP actual: 134/190.
+[2026-06-30 14:11:08] DAÑO: Malakar (Hechicero) - HP actual: 132/170.
+[2026-06-30 14:11:08] EFECTO: Malakar (Hechicero) - Ha sido envenenado.
+[2026-06-30 14:11:08] DAÑO: Malakar (Hechicero) - HP actual: 115/170.
+[2026-06-30 14:11:08] DAÑO: Lyra (Arquero) - HP actual: 106/190.
+[2026-06-30 14:11:08] EFECTO: Lyra (Arquero) - Ha sido envenenado.
+[2026-06-30 14:11:08] DAÑO: Lyra (Arquero) - HP actual: 87/190.
+[2026-06-30 14:11:08] DAÑO: Malakar (Hechicero) - HP actual: 77/170.
+[2026-06-30 14:11:08] DAÑO: Malakar (Hechicero) - HP actual: 60/170.
+[2026-06-30 14:11:08] DAÑO: Lyra (Arquero) - HP actual: 59/190.
+[2026-06-30 14:11:08] DAÑO: Lyra (Arquero) - HP actual: 40/190.
+[2026-06-30 14:11:09] DAÑO: Malakar (Hechicero) - HP actual: 22/170.
+[2026-06-30 14:11:09] DAÑO: Malakar (Hechicero) - HP actual: 5/170.
+[2026-06-30 14:11:09] EVENTO: Malakar (Hechicero) - Se ha recuperado del veneno.
+[2026-06-30 14:11:09] DAÑO: Lyra (Arquero) - HP actual: 12/190.
+[2026-06-30 14:11:09] MUERTE: Lyra (Arquero) ha muerto en combate.
+[2026-06-30 14:11:09] EVENTO: Lyra (Arquero) - Se ha recuperado del veneno.
+[2026-06-30 14:11:10] MUERTE: Malakar (Hechicero) ha muerto en combate.
