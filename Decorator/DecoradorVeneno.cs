@@ -36,7 +36,7 @@ namespace Decorator
             {
                 objetivo.CambiarEstado(EstadoEnvenenado.ObtenerInstancia());
                 Console.WriteLine($"  {objetivo.Nombre} ha sido envenenado por el golpe.");
-                string evento = $"[{DateTime.Now:HH:mm:ss}] EFECTO: {objetivo.Nombre} ({objetivo.GetType().Name}) - Ha sido envenenado.";
+                string evento = $"EFECTO: {objetivo.Nombre} ({objetivo.GetType().Name}) - Ha sido envenenado.";
                 objetivo.NotificarObservadores(evento);
                 return;
             }
@@ -44,7 +44,7 @@ namespace Decorator
             {
                 objetivo.CambiarEstado(EstadoParalizado.ObtenerInstancia());
                 Console.WriteLine($"  {objetivo.Nombre} ha sido paralizado por el golpe.");
-                string evento = $"[{DateTime.Now:HH:mm:ss}] EFECTO: {objetivo.Nombre} ({objetivo.GetType().Name}) - Ha sido paralizado.";
+                string evento = $"EFECTO: {objetivo.Nombre} ({objetivo.GetType().Name}) - Ha sido paralizado.";
                 objetivo.NotificarObservadores(evento);
                 return;
             }

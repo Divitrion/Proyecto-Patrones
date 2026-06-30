@@ -84,7 +84,7 @@ namespace Factory
         public void EquiparArma(Arma arma)
         {
             armaEquipada = arma;
-            string evento = $"[{DateTime.Now:HH:mm:ss}] ARMA: {Nombre} ({GetType().Name}) - Arma equipada: {arma.GetDescripcion()}.";
+            string evento = $"ARMA: {Nombre} ({GetType().Name}) - Arma equipada: {arma.GetDescripcion()}.";
             NotificarObservadores(evento);
         }
 
@@ -119,7 +119,7 @@ namespace Factory
         public void RecibirDaño(int daño)
         {
             Vida -= daño;
-            string evento = $"[{DateTime.Now:HH:mm:ss}] DAÑO: {Nombre} ({GetType().Name}) - HP actual: {Vida}/{VidaMaxima}.";
+            string evento = $"DAÑO: {Nombre} ({GetType().Name}) - HP actual: {Vida}/{VidaMaxima}.";
             if (Vida > 0)
                 NotificarObservadores(evento);
         }
