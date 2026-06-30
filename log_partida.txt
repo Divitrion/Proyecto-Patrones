@@ -65,3 +65,41 @@
 [15:13:48] [15:13:48] DAÑO: Lyra (Arquero) - HP actual: 4/90.
 [15:13:48] [15:13:48] EFECTO: Lyra (Arquero) - Ha sido paralizado.
 [15:13:48] [15:13:48] MUERTE: Lyra (Arquero) ha muerto en combate.
+=== Log de partida iniciado: 30/6/2026 13:32:37 ===
+[13:32:37] [13:32:37] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+14%) = 22 + Fuego (+6) = 28.
+[13:32:37] [13:32:37] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+2) = 20.
+[13:32:37] [13:32:37] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+10) = 35 + Veneno (+9) = 44.
+[13:32:37] [13:32:37] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+12%) = 16 + Veneno (+7) = 23.
+[13:32:37] [13:32:37] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[13:32:37] [13:32:37] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+=== Log de partida iniciado: 30/6/2026 13:34:24 ===
+[13:34:24] [13:34:24] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+20%) = 24 + Fuego (+9) = 33.
+[13:34:24] [13:34:24] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+7) = 25.
+[13:34:24] [13:34:24] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+27) = 52 + Veneno (+6) = 58.
+[13:34:24] [13:34:24] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+8%) = 16 + Veneno (+9) = 25.
+[13:34:24] [13:34:24] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[13:34:24] [13:34:24] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+=== Log de partida iniciado: 30/6/2026 13:35:19 ===
+[13:35:19] [13:35:19] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+39%) = 27 + Fuego (+27) = 54.
+[13:35:19] [13:35:19] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+9) = 27.
+[13:35:19] [13:35:19] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+24) = 49 + Veneno (+3) = 52.
+[13:35:19] [13:35:19] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+48%) = 22 + Veneno (+9) = 31.
+[13:35:19] [13:35:19] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[13:35:19] [13:35:19] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+=== Log de partida iniciado: 30/6/2026 14:01:23 ===
+[14:01:23] [14:01:23] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+32%) = 26 + Fuego (+13) = 39.
+[14:01:23] [14:01:23] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+4) = 22.
+[14:01:23] [14:01:23] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+18) = 43 + Veneno (+6) = 49.
+[14:01:23] [14:01:23] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+43%) = 21 + Veneno (+8) = 29.
+[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[14:01:23] [14:01:23] MUERTE: DummyMago (Hechicero) ha muerto en combate.
+[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 73/120.
+[14:01:23] [14:01:23] EFECTO: Aldric (Luchador) - Ha sido envenenado.
+[14:01:23] [14:01:23] DAÑO: Aldric (Luchador) - HP actual: 61/120.
+=== Log de partida iniciado: 30/6/2026 14:04:37 ===
+[14:04:37] [14:04:37] ARMA: Aldric (Luchador) - Arma equipada: Espada Corta (Daño base: 20) + Filo (+24%) = 24 + Fuego (+16) = 40.
+[14:04:37] [14:04:37] ARMA: Lyra (Arquero) - Arma equipada: Arco Largo (Daño base: 18) + Veneno (+5) = 23.
+[14:04:37] [14:04:37] ARMA: Gruk (Barbaro) - Arma equipada: Espada Larga (Daño base: 25) + Fuego (+14) = 39 + Veneno (+9) = 48.
+[14:04:37] [14:04:37] ARMA: Malakar (Hechicero) - Arma equipada: Cetro Mágico (Daño base: 15) + Filo (+8%) = 16 + Veneno (+2) = 18.
+[14:04:37] [14:04:37] DAÑO: Aldric (Luchador) - HP actual: 108/120.
+[14:04:37] [14:04:37] MUERTE: DummyMago (Hechicero) ha muerto en combate.

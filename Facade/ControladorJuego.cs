@@ -87,8 +87,9 @@ namespace Facade
         {
             Contenedor inv = p.GetInventario();
             Console.WriteLine($"[INVENTARIO] {p.Nombre}: Peso total={inv.GetPeso()} | Valor total={inv.GetValor()} oro");
-            foreach (var e in inv.GetElementos())
-                Console.WriteLine($"  → {e.GetNombre()} | {e.GetPeso()} kg | {e.GetValor()} oro");
+            foreach (var e in inv.GetElementos()){
+                e.MostrarContenido();
+            }
         }
 
         // ── Combate ──────────────────────────────────────────────────────────

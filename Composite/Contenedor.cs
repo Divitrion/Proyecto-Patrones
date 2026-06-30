@@ -44,7 +44,7 @@ namespace Composite
 
         public void MostrarContenido()
         {
-            Console.WriteLine($"Contenedor: {nombre}, (Peso total: {GetPeso()}, Valor total: {GetValor()})");
+            Console.WriteLine($"→ Contenedor: {nombre}, (Peso total: {GetPeso()}, Valor total: {GetValor()})");
             foreach (var elemento in elementos)
             {
                 elemento.MostrarContenido();
